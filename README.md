@@ -18,7 +18,7 @@ Foco: Armazenamento escalável e de baixo custo
 Descrição de caso de uso:
 A empresa armazena grandes volumes de dados como notas fiscais, relatórios e históricos de pedidos. Utilizando o S3 com políticas de ciclo de vida (como S3 Intelligent-Tiering), é possível mover automaticamente dados pouco acessados para camadas mais baratas.
 Como reduz custos:
-Elimina الحاجة de servidores físicos e reduz custos com armazenamento ativo desnecessário.
+Elimina custos de servidores físicos e reduz custos com armazenamento ativo desnecessário.
 Principal ganho:
 Alta durabilidade + armazenamento praticamente ilimitado com custo otimizado.
 Etapa 2:
