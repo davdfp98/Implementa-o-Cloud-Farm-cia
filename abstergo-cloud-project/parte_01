@@ -1,0 +1,17 @@
+abstergo-cloud-project/
+│
+├── README.md
+├── architecture/
+│   └── architecture-diagram.png
+│
+├── infrastructure/
+│   └── cloudformation.yaml
+│
+├── lambda/
+│   └── process_orders.py
+│
+├── scripts/
+│   └── upload_to_s3.py
+│
+├── docs/
+│   └── cost-optimization.md
