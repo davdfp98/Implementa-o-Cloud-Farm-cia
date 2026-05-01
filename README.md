@@ -1,51 +1,107 @@
-RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
 
-Data: 30/04/2026
-Empresa: Abstergo Industries
-Responsável: David
+# 📊 RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
 
-INTRODUÇÃO
+**Data:** 30/04/2026  
+**Empresa:** Abstergo Industries  
+**Responsável:** David  
 
-Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por David. O objetivo do projeto foi elencar 3 serviços AWS com foco direto na redução de custos operacionais, mantendo alta disponibilidade, escalabilidade e performance para o sistema de dados da empresa farmacêutica.
+---
 
-DESCRIÇÃO DO PROJETO
+## 📌 INTRODUÇÃO
 
-O projeto de implementação foi dividido em 3 etapas, cada uma focada em otimizar custos em diferentes camadas da arquitetura:
+Este relatório apresenta o processo de implementação de ferramentas na empresa **Abstergo Industries**.  
+O objetivo do projeto foi **reduzir custos operacionais utilizando serviços AWS**, mantendo:
 
-Etapa 1:
-Ferramenta: Amazon S3
-Foco: Armazenamento escalável e de baixo custo
-Descrição de caso de uso:
-A empresa armazena grandes volumes de dados como notas fiscais, relatórios e históricos de pedidos. Utilizando o S3 com políticas de ciclo de vida (como S3 Intelligent-Tiering), é possível mover automaticamente dados pouco acessados para camadas mais baratas.
-Como reduz custos:
-Elimina custos de servidores físicos e reduz custos com armazenamento ativo desnecessário.
-Principal ganho:
-Alta durabilidade + armazenamento praticamente ilimitado com custo otimizado.
-Etapa 2:
-Ferramenta: Amazon EC2 Auto Scaling
-Foco: Escalabilidade automática e otimização de recursos computacionais
-Descrição de caso de uso:
-O sistema de pedidos da empresa possui picos de uso (horários comerciais). Com Auto Scaling, as instâncias aumentam ou diminuem automaticamente conforme a demanda.
-Como reduz custos:
-Evita pagar por servidores ociosos fora do horário de pico.
-Principal ganho:
-Eficiência operacional + pagamento apenas pelo uso real.
-Etapa 3:
-Ferramenta: AWS Lambda
-Foco: Processamento serverless
-Descrição de caso de uso:
-Processamento de eventos como validação de pedidos, envio de notificações e integrações com sistemas externos.
-Como reduz custos:
-Não há cobrança por servidores ativos — apenas pelo tempo de execução.
-Principal ganho:
-Eliminação de custos com infraestrutura + alta escalabilidade automática.
-CONCLUSÃO
+- Alta disponibilidade  
+- Escalabilidade  
+- Performance  
 
-A implementação dessas ferramentas na empresa Abstergo Industries proporciona:
+---
 
-Redução significativa de custos operacionais
-Melhor uso de recursos computacionais
-Escalabilidade sob demanda
-Alta disponibilidade e desempenho
+## 🧱 DESCRIÇÃO DO PROJETO
 
-Essas soluções permitem que a empresa pague apenas pelo que utiliza, aumentando a eficiência e competitividade no mercado farmacêutico. Recomenda-se a continuidade da estratégia e evolução da arquitetura com novos serviços AWS.
+O projeto foi dividido em **3 etapas**, focadas em otimização de custos em diferentes camadas da arquitetura.
+
+---
+
+### 🔹 Etapa 1 — Amazon S3
+
+**Foco:** Armazenamento escalável e de baixo custo  
+
+**Caso de uso:**  
+Armazenamento de notas fiscais, relatórios e histórico de pedidos.
+
+**Estratégia:**  
+Uso de lifecycle + S3 Intelligent-Tiering
+
+**Redução de custo:**  
+- Elimina servidores físicos  
+- Move dados pouco acessados para camadas mais baratas  
+
+**Principal ganho:**  
+Alta durabilidade + armazenamento praticamente ilimitado  
+
+---
+
+### 🔹 Etapa 2 — Amazon EC2 Auto Scaling
+
+**Foco:** Escalabilidade automática  
+
+**Caso de uso:**  
+Sistema com picos de acesso (horário comercial)
+
+**Estratégia:**  
+Escalar instâncias automaticamente conforme demanda  
+
+**Redução de custo:**  
+- Evita servidores ociosos  
+- Uso sob demanda  
+
+**Principal ganho:**  
+Eficiência operacional  
+
+---
+
+### 🔹 Etapa 3 — AWS Lambda
+
+**Foco:** Processamento serverless  
+
+**Caso de uso:**  
+Validação de pedidos e integrações  
+
+**Estratégia:**  
+Execução sob demanda  
+
+**Redução de custo:**  
+- Sem servidores ativos  
+- Cobrança por execução  
+
+**Principal ganho:**  
+Escalabilidade automática + baixo custo  
+
+---
+
+## ✅ CONCLUSÃO
+
+A implementação dessas soluções proporcionou:
+
+- 💰 Redução significativa de custos  
+- ⚙️ Melhor uso de recursos  
+- 📈 Escalabilidade sob demanda  
+- 🔒 Alta disponibilidade  
+
+A arquitetura permite que a empresa **pague apenas pelo que utiliza**, aumentando sua eficiência e competitividade.
+
+---
+
+## 🚀 PRÓXIMOS PASSOS
+
+- Implementar monitoramento com CloudWatch  
+- Adicionar banco de dados gerenciado  
+- Evoluir arquitetura para microsserviços  
+
+---
+
+## 👨‍💻 Autor
+
+David Silva
